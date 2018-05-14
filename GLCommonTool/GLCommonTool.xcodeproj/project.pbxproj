@@ -15,10 +15,13 @@
 		8455838320A43318000D26FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455838220A43318000D26FA /* main.m */; };
 		8455838D20A43318000D26FA /* GLCommonToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455838C20A43318000D26FA /* GLCommonToolTests.m */; };
 		8455839820A43319000D26FA /* GLCommonToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455839720A43319000D26FA /* GLCommonToolUITests.m */; };
-		845583AC20A438DE000D26FA /* GLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583AB20A438DE000D26FA /* GLBaseTableViewController.m */; };
+		845583AC20A438DE000D26FA /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583AB20A438DE000D26FA /* BaseTableViewController.m */; };
 		845583B020A4401C000D26FA /* DecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583AE20A4401C000D26FA /* DecimalTextField.m */; };
-		845583B320A5396E000D26FA /* GLBaseRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583B220A5396E000D26FA /* GLBaseRequestViewController.m */; };
-		845583B620A59A3D000D26FA /* BaseRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583B520A59A3D000D26FA /* BaseRequestViewController.m */; };
+		845583B320A5396E000D26FA /* BaseRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583B220A5396E000D26FA /* BaseRequestViewController.m */; };
+		84D9C28D20A991EF00BEF589 /* UIButton+GLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9C28B20A991EF00BEF589 /* UIButton+GLTool.m */; };
+		84D9C29020A9924700BEF589 /* NSDictionary+GLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9C28E20A9924700BEF589 /* NSDictionary+GLTool.m */; };
+		84D9C29320A992C300BEF589 /* UIBarButtonItem+GLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9C29220A992C300BEF589 /* UIBarButtonItem+GLTool.m */; };
+		84D9C29620A993FE00BEF589 /* UIView+GLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9C29420A993FE00BEF589 /* UIView+GLTool.m */; };
 		A2D4C39C59E7106BAB1C7A60 /* libPods-GLCommonTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C465D9688027AAAE6E2904BA /* libPods-GLCommonTool.a */; };
 /* End PBXBuildFile section */
 
@@ -58,14 +61,21 @@
 		8455839320A43318000D26FA /* GLCommonToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLCommonToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8455839720A43319000D26FA /* GLCommonToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCommonToolUITests.m; sourceTree = "<group>"; };
 		8455839920A43319000D26FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		845583AA20A438DE000D26FA /* GLBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBaseTableViewController.h; sourceTree = "<group>"; };
-		845583AB20A438DE000D26FA /* GLBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBaseTableViewController.m; sourceTree = "<group>"; };
+		845583AA20A438DE000D26FA /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		845583AB20A438DE000D26FA /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		845583AE20A4401C000D26FA /* DecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecimalTextField.m; sourceTree = "<group>"; };
 		845583AF20A4401C000D26FA /* DecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecimalTextField.h; sourceTree = "<group>"; };
-		845583B120A5396E000D26FA /* GLBaseRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBaseRequestViewController.h; sourceTree = "<group>"; };
-		845583B220A5396E000D26FA /* GLBaseRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBaseRequestViewController.m; sourceTree = "<group>"; };
-		845583B420A59A3D000D26FA /* BaseRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequestViewController.h; sourceTree = "<group>"; };
-		845583B520A59A3D000D26FA /* BaseRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequestViewController.m; sourceTree = "<group>"; };
+		845583B120A5396E000D26FA /* BaseRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequestViewController.h; sourceTree = "<group>"; };
+		845583B220A5396E000D26FA /* BaseRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequestViewController.m; sourceTree = "<group>"; };
+		84D9C28B20A991EF00BEF589 /* UIButton+GLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GLTool.m"; sourceTree = "<group>"; };
+		84D9C28C20A991EF00BEF589 /* UIButton+GLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GLTool.h"; sourceTree = "<group>"; };
+		84D9C28E20A9924700BEF589 /* NSDictionary+GLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GLTool.m"; sourceTree = "<group>"; };
+		84D9C28F20A9924700BEF589 /* NSDictionary+GLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GLTool.h"; sourceTree = "<group>"; };
+		84D9C29120A992C300BEF589 /* UIBarButtonItem+GLTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GLTool.h"; sourceTree = "<group>"; };
+		84D9C29220A992C300BEF589 /* UIBarButtonItem+GLTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GLTool.m"; sourceTree = "<group>"; };
+		84D9C29420A993FE00BEF589 /* UIView+GLTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GLTool.m"; sourceTree = "<group>"; };
+		84D9C29520A993FE00BEF589 /* UIView+GLTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GLTool.h"; sourceTree = "<group>"; };
+		84D9C29720A994D300BEF589 /* BaseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseConfig.h; sourceTree = "<group>"; };
 		C465D9688027AAAE6E2904BA /* libPods-GLCommonTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLCommonTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,13 +147,12 @@
 		8455837220A43318000D26FA /* GLCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				84D9C28920A9916400BEF589 /* BaseVC */,
 				845583A520A43652000D26FA /* GLCommonTool */,
 				8455837320A43318000D26FA /* AppDelegate.h */,
 				8455837420A43318000D26FA /* AppDelegate.m */,
 				8455837620A43318000D26FA /* ViewController.h */,
 				8455837720A43318000D26FA /* ViewController.m */,
-				845583B420A59A3D000D26FA /* BaseRequestViewController.h */,
-				845583B520A59A3D000D26FA /* BaseRequestViewController.m */,
 				8455837920A43318000D26FA /* Main.storyboard */,
 				8455837C20A43318000D26FA /* Assets.xcassets */,
 				8455837E20A43318000D26FA /* LaunchScreen.storyboard */,
@@ -174,8 +183,10 @@
 		845583A520A43652000D26FA /* GLCommonTool */ = {
 			isa = PBXGroup;
 			children = (
+				84D9C28A20A991D800BEF589 /* Category */,
 				845583AD20A44012000D26FA /* View */,
 				845583A620A43674000D26FA /* Controller */,
+				84D9C29720A994D300BEF589 /* BaseConfig.h */,
 			);
 			path = GLCommonTool;
 			sourceTree = "<group>";
@@ -183,10 +194,6 @@
 		845583A620A43674000D26FA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				845583AA20A438DE000D26FA /* GLBaseTableViewController.h */,
-				845583AB20A438DE000D26FA /* GLBaseTableViewController.m */,
-				845583B120A5396E000D26FA /* GLBaseRequestViewController.h */,
-				845583B220A5396E000D26FA /* GLBaseRequestViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +205,32 @@
 				845583AE20A4401C000D26FA /* DecimalTextField.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		84D9C28920A9916400BEF589 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				845583AA20A438DE000D26FA /* BaseTableViewController.h */,
+				845583AB20A438DE000D26FA /* BaseTableViewController.m */,
+				845583B120A5396E000D26FA /* BaseRequestViewController.h */,
+				845583B220A5396E000D26FA /* BaseRequestViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		84D9C28A20A991D800BEF589 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				84D9C28C20A991EF00BEF589 /* UIButton+GLTool.h */,
+				84D9C28B20A991EF00BEF589 /* UIButton+GLTool.m */,
+				84D9C28F20A9924700BEF589 /* NSDictionary+GLTool.h */,
+				84D9C28E20A9924700BEF589 /* NSDictionary+GLTool.m */,
+				84D9C29120A992C300BEF589 /* UIBarButtonItem+GLTool.h */,
+				84D9C29220A992C300BEF589 /* UIBarButtonItem+GLTool.m */,
+				84D9C29520A993FE00BEF589 /* UIView+GLTool.h */,
+				84D9C29420A993FE00BEF589 /* UIView+GLTool.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,12 +385,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D9C28D20A991EF00BEF589 /* UIButton+GLTool.m in Sources */,
 				8455837820A43318000D26FA /* ViewController.m in Sources */,
-				845583B620A59A3D000D26FA /* BaseRequestViewController.m in Sources */,
+				84D9C29320A992C300BEF589 /* UIBarButtonItem+GLTool.m in Sources */,
 				8455838320A43318000D26FA /* main.m in Sources */,
-				845583AC20A438DE000D26FA /* GLBaseTableViewController.m in Sources */,
+				84D9C29020A9924700BEF589 /* NSDictionary+GLTool.m in Sources */,
+				845583AC20A438DE000D26FA /* BaseTableViewController.m in Sources */,
 				845583B020A4401C000D26FA /* DecimalTextField.m in Sources */,
-				845583B320A5396E000D26FA /* GLBaseRequestViewController.m in Sources */,
+				84D9C29620A993FE00BEF589 /* UIView+GLTool.m in Sources */,
+				845583B320A5396E000D26FA /* BaseRequestViewController.m in Sources */,
 				8455837520A43318000D26FA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,16 +6,29 @@
 //  Copyright © 2018年 GL. All rights reserved.
 //
 
-#import "GLBaseRequestViewController.h"
+#import "BaseRequestViewController.h"
 #import <AFNetworking/AFNetworking.h>
 
-@implementation GLBaseRequestViewController
+@implementation BaseRequestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+#pragma --mark ------配置网络请求 数据处理
+- (void)configCommonRequest
+{
+    _GLTimeOut = 10;
+    [self setGLAFNRequestSuccess:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    
+        }];
+    [self setGLAFNRequestFailure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    
+    }];
+}
+
+#pragma --mark ------一下基本通用网络请求
 - (void)startRequest:(NSString *)str paramsDic:(NSDictionary *)paramsDic success:(void(^)(id sta))success error:(void(^)(id error))errorInfo
 {
     [self startRequest:str paramsDic:paramsDic isShowView:YES isShowAlter:YES success:success error:errorInfo];
@@ -28,7 +41,7 @@
 
 - (void)startRequest:(NSString *)str paramsDic:(NSDictionary *)paramsDic isShowView:(BOOL)isShowView isShowAlter:(BOOL)isShowAlter success:(void(^)(id sta))success error:(void(^)(id error))errorInfo
 {
-    [self startRequest:str paramsDic:paramsDic isShowView:isShowView isShowAlter:isShowAlter timeOut:20 success:success error:errorInfo];
+    [self startRequest:str paramsDic:paramsDic isShowView:isShowView isShowAlter:isShowAlter timeOut:_GLTimeOut success:success error:errorInfo];
 }
 
 - (void)startRequest:(NSString *)str paramsDic:(NSDictionary *)paramsDic isShowView:(BOOL)isShowView isShowAlter:(BOOL)isShowAlter timeOut:(NSInteger)timeOut success:(void(^)(id sta))success error:(void(^)(id error))errorInfo

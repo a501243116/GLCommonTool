@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseRequestViewController.h"
 
-@interface GLBaseTableViewController : UIViewController
+@interface BaseTableViewController : BaseRequestViewController
 
 /**
  记得赋值！！！

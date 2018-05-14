@@ -6,13 +6,13 @@
 //  Copyright © 2018年 GL. All rights reserved.
 //
 
-#import "GLBaseTableViewController.h"
+#import "BaseTableViewController.h"
 
-@interface GLBaseTableViewController ()
+@interface BaseTableViewController ()
 
 @end
 
-@implementation GLBaseTableViewController
+@implementation BaseTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

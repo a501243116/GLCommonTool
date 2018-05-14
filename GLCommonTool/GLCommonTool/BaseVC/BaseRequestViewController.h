@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 
-@interface GLBaseRequestViewController : UIViewController
+@interface BaseRequestViewController : UIViewController
 
 /**
  自定义处理返回数据统一逻辑  这里是AFN请求返回结果
@@ -53,7 +53,10 @@
  [self.GLRequestHUD hideAnimated:YES];
  */
 @property (nonatomic , strong) MBProgressHUD *GLRequestHUD;
-
+/**
+ 超时时间 默认10s
+ */
+@property (nonatomic , assign) NSInteger GLTimeOut;
 
 - (void)startRequest:(NSString *)str paramsDic:(NSDictionary *)paramsDic success:(void(^)(id sta))success error:(void(^)(id error))errorInfo;//默认错误直接弹出对话框，请求显示指示器
 - (void)startRequest:(NSString *)str paramsDic:(NSDictionary *)paramsDic isShowView:(BOOL)isShowView success:(void(^)(id sta))success error:(void(^)(id error))errorInfo;//默认错误直接弹出对话框，请求是否显示指示器
