@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+target "GLCommonTool" do
+    
+    pod "AFNetworking"
+    pod "MBProgressHUD"
+    
+end

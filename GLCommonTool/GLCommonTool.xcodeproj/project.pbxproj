@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8455837520A43318000D26FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455837420A43318000D26FA /* AppDelegate.m */; };
+		8455837820A43318000D26FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455837720A43318000D26FA /* ViewController.m */; };
+		8455837B20A43318000D26FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455837920A43318000D26FA /* Main.storyboard */; };
+		8455837D20A43318000D26FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8455837C20A43318000D26FA /* Assets.xcassets */; };
+		8455838020A43318000D26FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455837E20A43318000D26FA /* LaunchScreen.storyboard */; };
+		8455838320A43318000D26FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455838220A43318000D26FA /* main.m */; };
+		8455838D20A43318000D26FA /* GLCommonToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455838C20A43318000D26FA /* GLCommonToolTests.m */; };
+		8455839820A43319000D26FA /* GLCommonToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8455839720A43319000D26FA /* GLCommonToolUITests.m */; };
+		845583AC20A438DE000D26FA /* GLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583AB20A438DE000D26FA /* GLBaseTableViewController.m */; };
+		845583B020A4401C000D26FA /* DecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583AE20A4401C000D26FA /* DecimalTextField.m */; };
+		845583B320A5396E000D26FA /* GLBaseRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583B220A5396E000D26FA /* GLBaseRequestViewController.m */; };
+		845583B620A59A3D000D26FA /* BaseRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845583B520A59A3D000D26FA /* BaseRequestViewController.m */; };
+		A2D4C39C59E7106BAB1C7A60 /* libPods-GLCommonTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C465D9688027AAAE6E2904BA /* libPods-GLCommonTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8455838920A43318000D26FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8455836820A43318000D26FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8455836F20A43318000D26FA;
+			remoteInfo = GLCommonTool;
+		};
+		8455839420A43319000D26FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8455836820A43318000D26FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8455836F20A43318000D26FA;
+			remoteInfo = GLCommonTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B554EBD131D10FFCDA080C9 /* Pods-GLCommonTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLCommonTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLCommonTool/Pods-GLCommonTool.release.xcconfig"; sourceTree = "<group>"; };
+		4FCA34F2C40328D4583AE3A2 /* Pods-GLCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLCommonTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLCommonTool/Pods-GLCommonTool.debug.xcconfig"; sourceTree = "<group>"; };
+		8455837020A43318000D26FA /* GLCommonTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLCommonTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455837320A43318000D26FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8455837420A43318000D26FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8455837620A43318000D26FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8455837720A43318000D26FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8455837A20A43318000D26FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8455837C20A43318000D26FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8455837F20A43318000D26FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8455838120A43318000D26FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455838220A43318000D26FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8455838820A43318000D26FA /* GLCommonToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLCommonToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455838C20A43318000D26FA /* GLCommonToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCommonToolTests.m; sourceTree = "<group>"; };
+		8455838E20A43318000D26FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455839320A43318000D26FA /* GLCommonToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLCommonToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455839720A43319000D26FA /* GLCommonToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCommonToolUITests.m; sourceTree = "<group>"; };
+		8455839920A43319000D26FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845583AA20A438DE000D26FA /* GLBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBaseTableViewController.h; sourceTree = "<group>"; };
+		845583AB20A438DE000D26FA /* GLBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBaseTableViewController.m; sourceTree = "<group>"; };
+		845583AE20A4401C000D26FA /* DecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecimalTextField.m; sourceTree = "<group>"; };
+		845583AF20A4401C000D26FA /* DecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecimalTextField.h; sourceTree = "<group>"; };
+		845583B120A5396E000D26FA /* GLBaseRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLBaseRequestViewController.h; sourceTree = "<group>"; };
+		845583B220A5396E000D26FA /* GLBaseRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBaseRequestViewController.m; sourceTree = "<group>"; };
+		845583B420A59A3D000D26FA /* BaseRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRequestViewController.h; sourceTree = "<group>"; };
+		845583B520A59A3D000D26FA /* BaseRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRequestViewController.m; sourceTree = "<group>"; };
+		C465D9688027AAAE6E2904BA /* libPods-GLCommonTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLCommonTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8455836D20A43318000D26FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D4C39C59E7106BAB1C7A60 /* libPods-GLCommonTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455838520A43318000D26FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455839020A43318000D26FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D7FFC72F71EA3005605B3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FCA34F2C40328D4583AE3A2 /* Pods-GLCommonTool.debug.xcconfig */,
+				4B554EBD131D10FFCDA080C9 /* Pods-GLCommonTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		529951CD3DBE868EFFEE45DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C465D9688027AAAE6E2904BA /* libPods-GLCommonTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8455836720A43318000D26FA = {
+			isa = PBXGroup;
+			children = (
+				8455837220A43318000D26FA /* GLCommonTool */,
+				8455838B20A43318000D26FA /* GLCommonToolTests */,
+				8455839620A43319000D26FA /* GLCommonToolUITests */,
+				8455837120A43318000D26FA /* Products */,
+				00D7FFC72F71EA3005605B3A /* Pods */,
+				529951CD3DBE868EFFEE45DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8455837120A43318000D26FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8455837020A43318000D26FA /* GLCommonTool.app */,
+				8455838820A43318000D26FA /* GLCommonToolTests.xctest */,
+				8455839320A43318000D26FA /* GLCommonToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8455837220A43318000D26FA /* GLCommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				845583A520A43652000D26FA /* GLCommonTool */,
+				8455837320A43318000D26FA /* AppDelegate.h */,
+				8455837420A43318000D26FA /* AppDelegate.m */,
+				8455837620A43318000D26FA /* ViewController.h */,
+				8455837720A43318000D26FA /* ViewController.m */,
+				845583B420A59A3D000D26FA /* BaseRequestViewController.h */,
+				845583B520A59A3D000D26FA /* BaseRequestViewController.m */,
+				8455837920A43318000D26FA /* Main.storyboard */,
+				8455837C20A43318000D26FA /* Assets.xcassets */,
+				8455837E20A43318000D26FA /* LaunchScreen.storyboard */,
+				8455838120A43318000D26FA /* Info.plist */,
+				8455838220A43318000D26FA /* main.m */,
+			);
+			path = GLCommonTool;
+			sourceTree = "<group>";
+		};
+		8455838B20A43318000D26FA /* GLCommonToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				8455838C20A43318000D26FA /* GLCommonToolTests.m */,
+				8455838E20A43318000D26FA /* Info.plist */,
+			);
+			path = GLCommonToolTests;
+			sourceTree = "<group>";
+		};
+		8455839620A43319000D26FA /* GLCommonToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8455839720A43319000D26FA /* GLCommonToolUITests.m */,
+				8455839920A43319000D26FA /* Info.plist */,
+			);
+			path = GLCommonToolUITests;
+			sourceTree = "<group>";
+		};
+		845583A520A43652000D26FA /* GLCommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				845583AD20A44012000D26FA /* View */,
+				845583A620A43674000D26FA /* Controller */,
+			);
+			path = GLCommonTool;
+			sourceTree = "<group>";
+		};
+		845583A620A43674000D26FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				845583AA20A438DE000D26FA /* GLBaseTableViewController.h */,
+				845583AB20A438DE000D26FA /* GLBaseTableViewController.m */,
+				845583B120A5396E000D26FA /* GLBaseRequestViewController.h */,
+				845583B220A5396E000D26FA /* GLBaseRequestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		845583AD20A44012000D26FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				845583AF20A4401C000D26FA /* DecimalTextField.h */,
+				845583AE20A4401C000D26FA /* DecimalTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8455836F20A43318000D26FA /* GLCommonTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455839C20A43319000D26FA /* Build configuration list for PBXNativeTarget "GLCommonTool" */;
+			buildPhases = (
+				2AB147A90BF8C126FCC674FB /* [CP] Check Pods Manifest.lock */,
+				8455836C20A43318000D26FA /* Sources */,
+				8455836D20A43318000D26FA /* Frameworks */,
+				8455836E20A43318000D26FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLCommonTool;
+			productName = GLCommonTool;
+			productReference = 8455837020A43318000D26FA /* GLCommonTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8455838720A43318000D26FA /* GLCommonToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455839F20A43319000D26FA /* Build configuration list for PBXNativeTarget "GLCommonToolTests" */;
+			buildPhases = (
+				8455838420A43318000D26FA /* Sources */,
+				8455838520A43318000D26FA /* Frameworks */,
+				8455838620A43318000D26FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8455838A20A43318000D26FA /* PBXTargetDependency */,
+			);
+			name = GLCommonToolTests;
+			productName = GLCommonToolTests;
+			productReference = 8455838820A43318000D26FA /* GLCommonToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8455839220A43318000D26FA /* GLCommonToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845583A220A43319000D26FA /* Build configuration list for PBXNativeTarget "GLCommonToolUITests" */;
+			buildPhases = (
+				8455838F20A43318000D26FA /* Sources */,
+				8455839020A43318000D26FA /* Frameworks */,
+				8455839120A43318000D26FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8455839520A43319000D26FA /* PBXTargetDependency */,
+			);
+			name = GLCommonToolUITests;
+			productName = GLCommonToolUITests;
+			productReference = 8455839320A43318000D26FA /* GLCommonToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8455836820A43318000D26FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = GL;
+				TargetAttributes = {
+					8455836F20A43318000D26FA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8455838720A43318000D26FA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8455836F20A43318000D26FA;
+					};
+					8455839220A43318000D26FA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8455836F20A43318000D26FA;
+					};
+				};
+			};
+			buildConfigurationList = 8455836B20A43318000D26FA /* Build configuration list for PBXProject "GLCommonTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8455836720A43318000D26FA;
+			productRefGroup = 8455837120A43318000D26FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8455836F20A43318000D26FA /* GLCommonTool */,
+				8455838720A43318000D26FA /* GLCommonToolTests */,
+				8455839220A43318000D26FA /* GLCommonToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8455836E20A43318000D26FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455838020A43318000D26FA /* LaunchScreen.storyboard in Resources */,
+				8455837D20A43318000D26FA /* Assets.xcassets in Resources */,
+				8455837B20A43318000D26FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455838620A43318000D26FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455839120A43318000D26FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB147A90BF8C126FCC674FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GLCommonTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8455836C20A43318000D26FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455837820A43318000D26FA /* ViewController.m in Sources */,
+				845583B620A59A3D000D26FA /* BaseRequestViewController.m in Sources */,
+				8455838320A43318000D26FA /* main.m in Sources */,
+				845583AC20A438DE000D26FA /* GLBaseTableViewController.m in Sources */,
+				845583B020A4401C000D26FA /* DecimalTextField.m in Sources */,
+				845583B320A5396E000D26FA /* GLBaseRequestViewController.m in Sources */,
+				8455837520A43318000D26FA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455838420A43318000D26FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455838D20A43318000D26FA /* GLCommonToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455838F20A43318000D26FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455839820A43319000D26FA /* GLCommonToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8455838A20A43318000D26FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8455836F20A43318000D26FA /* GLCommonTool */;
+			targetProxy = 8455838920A43318000D26FA /* PBXContainerItemProxy */;
+		};
+		8455839520A43319000D26FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8455836F20A43318000D26FA /* GLCommonTool */;
+			targetProxy = 8455839420A43319000D26FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8455837920A43318000D26FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8455837A20A43318000D26FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8455837E20A43318000D26FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8455837F20A43318000D26FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8455839A20A43319000D26FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8455839B20A43319000D26FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8455839D20A43319000D26FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCA34F2C40328D4583AE3A2 /* Pods-GLCommonTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37GZXR46Q7;
+				INFOPLIST_FILE = GLCommonTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snb.des.GLCommonTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8455839E20A43319000D26FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B554EBD131D10FFCDA080C9 /* Pods-GLCommonTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37GZXR46Q7;
+				INFOPLIST_FILE = GLCommonTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snb.des.GLCommonTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		845583A020A43319000D26FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37GZXR46Q7;
+				INFOPLIST_FILE = GLCommonToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snb.des.GLCommonToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLCommonTool.app/GLCommonTool";
+			};
+			name = Debug;
+		};
+		845583A120A43319000D26FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37GZXR46Q7;
+				INFOPLIST_FILE = GLCommonToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snb.des.GLCommonToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLCommonTool.app/GLCommonTool";
+			};
+			name = Release;
+		};
+		845583A320A43319000D26FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37GZXR46Q7;
+				INFOPLIST_FILE = GLCommonToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snb.des.GLCommonToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GLCommonTool;
+			};
+			name = Debug;
+		};
+		845583A420A43319000D26FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37GZXR46Q7;
+				INFOPLIST_FILE = GLCommonToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snb.des.GLCommonToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GLCommonTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8455836B20A43318000D26FA /* Build configuration list for PBXProject "GLCommonTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455839A20A43319000D26FA /* Debug */,
+				8455839B20A43319000D26FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8455839C20A43319000D26FA /* Build configuration list for PBXNativeTarget "GLCommonTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455839D20A43319000D26FA /* Debug */,
+				8455839E20A43319000D26FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8455839F20A43319000D26FA /* Build configuration list for PBXNativeTarget "GLCommonToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845583A020A43319000D26FA /* Debug */,
+				845583A120A43319000D26FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845583A220A43319000D26FA /* Build configuration list for PBXNativeTarget "GLCommonToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845583A320A43319000D26FA /* Debug */,
+				845583A420A43319000D26FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8455836820A43318000D26FA /* Project object */;
+}
