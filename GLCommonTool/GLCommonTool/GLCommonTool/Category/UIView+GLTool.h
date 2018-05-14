@@ -8,26 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum : NSUInteger {
-    GLAnimationTypeFade = 1,                   //淡入淡出
-    GLAnimationTypePush,                       //推挤
-    GLAnimationTypeReveal,                     //揭开
-    GLAnimationTypeMoveIn,                     //覆盖
-    GLAnimationTypeCube,                       //立方体
-    GLAnimationTypeSuckEffect,                 //吮吸
-    GLAnimationTypeOglFlip,                    //翻转
-    GLAnimationTypeRippleEffect,               //波纹
-    GLAnimationTypePageCurl,                   //翻页
-    GLAnimationTypePageUnCurl,                 //反翻页
-    GLAnimationTypeCameraIrisHollowOpen,       //开镜头
-    GLAnimationTypeCameraIrisHollowClose,      //关镜头
-    GLAnimationTypeCurlDown,                   //下翻页
-    GLAnimationTypeCurlUp,                     //上翻页
-    GLAnimationTypeFlipFromLeft,               //左翻转
-    GLAnimationTypeFlipFromRight,              //右翻转
-    GLAnimationTypeFlipFromThumb,              //点赞 放大缩小
-} GLAnimationType;
-
 @interface UIView (GLTool)
 
 
@@ -63,5 +43,4 @@ typedef enum : NSUInteger {
 - (void)drawDashLineLength:(int)lineLength lineSpacing:(int)lineSpacing lineColor:(UIColor *)lineColor;//虚线 水平方向
 - (void)drawDashLineWithVerticalLength:(int)lineLength lineSpacing:(int)lineSpacing lineColor:(UIColor *)lineColor;//虚线 竖直方向
 - (void)drawDashBorderLineColor:(UIColor *)lineColor cornerRadius:(CGFloat)radius;//虚线边框
-- (void)setAnimationType:(GLAnimationType)animationType WithSubType:(NSInteger)subtype;//设置动画
 @end
