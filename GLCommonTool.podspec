@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GLCommonTool'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = '常用的一些工具封装'
 
 # This description is used to generate tags and improve search results.

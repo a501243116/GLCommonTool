@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestItem.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIBarButtonItem *testItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"myoccasion_add"] style:(UIBarButtonItemStylePlain) target:nil action:nil];
+    self.navigationItem.leftBarButtonItem = testItem;
 }
 
 
