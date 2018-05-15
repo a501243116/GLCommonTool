@@ -8,6 +8,7 @@
 
 #import "UIImage+GLTool.h"
 #import <AVFoundation/AVFoundation.h>
+
 @implementation UIImage (GLTool)
 
 + (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size
@@ -101,7 +102,7 @@
 
 + (UIImage *)fetchLunchImage
 {
-    CGSize winSize = [UIApplication sharedApplication].keyWindow. size;
+    CGSize winSize = [UIApplication sharedApplication].keyWindow.frame.size;
     NSArray* imagesDict = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
     for (NSDictionary* dict in imagesDict) {
         if(CGSizeEqualToSize(CGSizeFromString(dict[@"UILaunchImageSize"]),winSize))
