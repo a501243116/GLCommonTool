@@ -29,7 +29,7 @@
  图片压缩
 
  @param defineWidth 压缩宽度 高自适应
- @return
+ @return 压缩后的图片
  */
 - (UIImage *)imageCompressForWidth:(CGFloat)defineWidth;
 
